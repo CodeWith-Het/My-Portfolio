@@ -1,15 +1,9 @@
 import React from 'react'
-import Hero_Image from '../../Hero-Image.jpg'
 import '../../Components/Hero-Section/Hero.css'
 
 const Hero = () => {
   return (
     <div className="w-full h-screen overflow-y-hidden">
-      <img 
-        src={Hero_Image} 
-        alt="Hero Section" 
-        className="w-full h-full object-cover opacity-50"
-      />
 
 <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
         <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">
